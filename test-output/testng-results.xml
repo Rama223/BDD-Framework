@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79266" started-at="2016-09-13T14:48:37Z" finished-at="2016-09-13T14:49:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79266" started-at="2016-09-13T14:48:37Z" finished-at="2016-09-13T14:49:56Z">
+      <class name="com.vmetry.pageTest.LoginPageTest">
+        <test-method status="PASS" signature="bfrcls()[pri:0, instance:com.vmetry.pageTest.LoginPageTest@1b7682d]" name="bfrcls" is-config="true" duration-ms="7740" started-at="2016-09-13T20:18:37Z" finished-at="2016-09-13T20:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrcls -->
+        <test-method status="FAIL" signature="testLoginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.pageTest.LoginPageTest@1b7682d]" name="testLoginPage" duration-ms="20784" started-at="2016-09-13T20:18:45Z" data-provider="sdfkjshdfksd" finished-at="2016-09-13T20:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_L001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100411794217]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vasanth@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.vmetry.pageTest.LoginPageTest.testLoginPage(LoginPageTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.pageTest.LoginPageTest@1b7682d]" name="testLoginPage" duration-ms="18150" started-at="2016-09-13T20:19:06Z" data-provider="sdfkjshdfksd" finished-at="2016-09-13T20:19:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_L002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100411794217]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vasiinso@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.pageTest.LoginPageTest@1b7682d]" name="testLoginPage" duration-ms="17966" started-at="2016-09-13T20:19:24Z" data-provider="sdfkjshdfksd" finished-at="2016-09-13T20:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_L003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[212112212112]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vasanth@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.pageTest.LoginPageTest@1b7682d]" name="testLoginPage" duration-ms="11556" started-at="2016-09-13T20:19:42Z" data-provider="sdfkjshdfksd" finished-at="2016-09-13T20:19:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_L004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="afrcls()[pri:0, instance:com.vmetry.pageTest.LoginPageTest@1b7682d]" name="afrcls" is-config="true" duration-ms="2400" started-at="2016-09-13T20:19:54Z" finished-at="2016-09-13T20:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afrcls -->
+      </class> <!-- com.vmetry.pageTest.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
