@@ -12,6 +12,7 @@ And select basic as <BASIC>
 When click book later checkbox
 But dont click book button
 
+
 Examples:
 |BROWSER|URL|USERNAME|MOBILENO|PICADD|DROPADD|BASIC|
 |firefox|http://www.ntltaxi.com/|testa|1234567890|ADYAR|ADAMBAKKAM|Sedan|
